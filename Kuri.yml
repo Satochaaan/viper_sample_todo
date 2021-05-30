@@ -1,0 +1,34 @@
+DefaultTemplateDirectoryPath: ./ViperTodoAppTemplate/
+ProjectRootPath: ./
+ProjectFileName: ViperTodoApp.xcodeproj
+GenerateRootPath: ./ViperTodoApp/
+Target: ViperTodoApp
+ShouldRemoveLayerNameFromDirectory: false
+
+
+DefaultTemplateDirectoryPath: ./Template/
+ProjectRootPath: ./
+ProjectFileName: ViperTodoApp.xcodeproj
+GenerateRootPath: ./ViperTodoApp/modules/
+Target: ViperTodoApp
+ShouldRemoveLayerNameFromDirectory: false
+
+interactor:
+  ProjectRootPath: ./
+  ProjectFileName: ViperTodoApp.xcodeproj
+  GenerateRootPath: ./ViperTodoApp/data/
+  Target: ViperTodoApp
+  ShouldRemoveLayerNameFromDirectory: true
+
+interactorTests:
+  ProjectRootPath: ./
+  ProjectFileName: ViperTodoApp.xcodeproj
+  GenerateRootPath: ./ViperTodoApp/data/
+  Target: ViperTodoAppTests
+  ShouldRemoveLayerNameFromDirectory: true
+
+presenterTests:
+  ProjectRootPath: ./
+  ProjectFileName: ViperTodoApp.xcodeproj
+  GenerateRootPath: ./ViperTodoApp/modules/
+  Target: ViperTodoAppTests
