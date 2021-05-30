@@ -1,11 +1,3 @@
-DefaultTemplateDirectoryPath: ./ViperTodoAppTemplate/
-ProjectRootPath: ./
-ProjectFileName: ViperTodoApp.xcodeproj
-GenerateRootPath: ./ViperTodoApp/
-Target: ViperTodoApp
-ShouldRemoveLayerNameFromDirectory: false
-
-
 DefaultTemplateDirectoryPath: ./Template/
 ProjectRootPath: ./
 ProjectFileName: ViperTodoApp.xcodeproj
